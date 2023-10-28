@@ -53,31 +53,154 @@
     #region Types of Constructors in C#
     #region Default or Parameter less Constructor in C#
     // System - Defined 
-    class Employee
-    {
-        public int id, age;
-        public string address, name;
-        public bool isPermanent;
-    }
+    //class Employee
+    //{
+    //    public int id, age;
+    //    public string address, name;
+    //    public bool isPermanent;
+    //}
 
-    class Test
+    //class Test
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        Employee e1 = new Employee();
+
+    //        Console.WriteLine("Employee Id is: " + e1.id);
+    //        Console.WriteLine("Employee Name is: " + e1.name);
+    //        Console.WriteLine("Employee Age is: " + e1.age);
+    //        Console.WriteLine("Employee Address is: " + e1.address);
+    //        Console.WriteLine("Is Employee Permanent: " + e1.isPermanent);
+
+    //        Console.ReadKey();
+    //    }
+    //}
+
+    // User - Defined
+    //class Employee
+    //{
+    //    public int id, age;
+    //    public string address, name;
+    //    public bool isPermanent;
+
+    //    public Employee() 
+    //    {
+    //        id = 2309;
+    //        age = 21;
+    //        address = "Nghe An";
+    //        name = "Demine";
+    //        isPermanent = true;
+    //    }
+
+    //    public void Display()
+    //    {
+    //        Console.WriteLine("Employee Id is: " + id);
+    //        Console.WriteLine("Employee Name is: " + name);
+    //        Console.WriteLine("Employee Age is: " + age);
+    //        Console.WriteLine("Employee Address is: " + address);
+    //        Console.WriteLine("Is Employee Permanent: " + isPermanent);
+    //    }
+    //}
+
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        Employee e1 = new Employee();
+    //        e1.Display();
+
+    //        Console.ReadKey();
+    //    }
+    //}
+    #endregion
+
+    #region Parameterized Constructor
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        ParameterizedConstructor obj1 = new ParameterizedConstructor(23);
+    //        obj1.Display();
+    //        ParameterizedConstructor obj2 = new ParameterizedConstructor(09);
+    //        obj2.Display(); 
+    //        CopyConstructor obj3 = new CopyConstructor(2002);
+    //        obj3.Display();
+    //        CopyConstructor obj4 = new CopyConstructor(obj3);
+    //        obj4.Display();
+
+    //        Console.ReadKey();
+    //    }
+    //}
+
+    //public class ParameterizedConstructor
+    //{
+    //    int x;
+
+    //    public ParameterizedConstructor(int i)
+    //    {
+    //        x = i;
+    //        Console.WriteLine($"Parameterized Constructor is called: {i}");
+    //    }
+
+    //    public void Display()
+    //    {
+    //        Console.WriteLine($"Value of x = {x}");
+    //    } 
+    //}
+
+    //public class CopyConstructor
+    //{
+    //    int x;
+
+    //    public CopyConstructor(int i)
+    //    {
+    //        x = i;
+    //    }
+
+    //    //Copy Constructor
+    //    public CopyConstructor(CopyConstructor obj)
+    //    {
+    //        x = obj.x;
+    //    }
+
+    //    public void Display()
+    //    {
+    //        Console.WriteLine($"Value of X = {x}");
+    //    }
+    //}
+    #endregion
+
+    #region Static Constructors
+    //class StaticConstructor
+    //{
+    //    static StaticConstructor()
+    //    {
+    //        Console.WriteLine("Static Constructor executed!");
+    //    }
+
+    //    static void Main(string[] args)
+    //    {
+    //        Console.WriteLine("Main Method Execution Started...");
+    //        Console.ReadKey();
+    //    }
+    //}
+    #endregion
+
+    #region Private Constructors
+    class Program
     {
+        private Program()
+        {
+            Console.WriteLine("This is private constructor");
+        }
+
         static void Main(string[] args)
         {
-            Employee e1 = new Employee();
-
-            Console.WriteLine("Employee Id is: " + e1.id);
-            Console.WriteLine("Employee Name is: " + e1.name);
-            Console.WriteLine("Employee Age is: " + e1.age);
-            Console.WriteLine("Employee Address is: " + e1.address);
-            Console.WriteLine("Is Employee Permanent: " + e1.isPermanent);
-
+            Program p = new Program();
+            Console.WriteLine("Main method");
             Console.ReadKey();
         }
     }
-
-    // User - Defined
-
     #endregion
     #endregion
 }
