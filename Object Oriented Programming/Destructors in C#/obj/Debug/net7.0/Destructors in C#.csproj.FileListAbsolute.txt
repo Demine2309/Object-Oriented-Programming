@@ -1,0 +1,15 @@
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\bin\Debug\net7.0\Destructors in C#.exe
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\bin\Debug\net7.0\Destructors in C#.deps.json
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\bin\Debug\net7.0\Destructors in C#.runtimeconfig.json
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\bin\Debug\net7.0\Destructors in C#.dll
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\bin\Debug\net7.0\Destructors in C#.pdb
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\obj\Debug\net7.0\Destructors in C#.csproj.AssemblyReference.cache
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\obj\Debug\net7.0\Destructors in C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\obj\Debug\net7.0\Destructors in C#.AssemblyInfoInputs.cache
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\obj\Debug\net7.0\Destructors in C#.AssemblyInfo.cs
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\obj\Debug\net7.0\Destructors in C#.csproj.CoreCompileInputs.cache
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\obj\Debug\net7.0\Destructors in C#.dll
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\obj\Debug\net7.0\refint\Destructors in C#.dll
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\obj\Debug\net7.0\Destructors in C#.pdb
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\obj\Debug\net7.0\Destructors in C#.genruntimeconfig.cache
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Destructors in C#\obj\Debug\net7.0\ref\Destructors in C#.dll

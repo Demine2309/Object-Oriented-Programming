@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors in C#", "Constructors in C#\Constructors in C#.csproj", "{32DA10A4-A171-428C-8987-778724854882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors in C#", "Constructors in C#\Constructors in C#.csproj", "{32DA10A4-A171-428C-8987-778724854882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Destructors in C#", "Destructors in C#\Destructors in C#.csproj", "{09282838-57BC-423A-AE9B-4E2E5C14BDD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garbage Collection on C# .NET", "Garbage Collection on C# .NET\Garbage Collection on C# .NET.csproj", "{C482AF12-5B09-4904-9822-89A52C7E5B01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{32DA10A4-A171-428C-8987-778724854882}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32DA10A4-A171-428C-8987-778724854882}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32DA10A4-A171-428C-8987-778724854882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09282838-57BC-423A-AE9B-4E2E5C14BDD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09282838-57BC-423A-AE9B-4E2E5C14BDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09282838-57BC-423A-AE9B-4E2E5C14BDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09282838-57BC-423A-AE9B-4E2E5C14BDD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C482AF12-5B09-4904-9822-89A52C7E5B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C482AF12-5B09-4904-9822-89A52C7E5B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C482AF12-5B09-4904-9822-89A52C7E5B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C482AF12-5B09-4904-9822-89A52C7E5B01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

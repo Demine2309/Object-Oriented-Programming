@@ -1,4 +1,7 @@
-﻿namespace OOPs
+﻿using System.Net;
+using System.Xml.Linq;
+
+namespace OOPs
 {
     #region Test 1
     //class Program
@@ -187,20 +190,63 @@
     #endregion
 
     #region Private Constructors
-    class Program
+    //class Program
+    //{
+    //    private Program()
+    //    {
+    //        Console.WriteLine("This is private constructor");
+    //    }
+
+    //    static void Main(string[] args)
+    //    {
+    //        Program p = new Program();
+    //        Console.WriteLine("Main method");
+    //        Console.ReadKey();
+    //    }
+    //}
+    #endregion
+    #endregion
+
+    #region Why we need Constructors?
+    class Employee
     {
-        private Program()
+        public int id, age;
+        public string address, name;
+        public bool isPermanent;
+
+        public Employee(int id, int age, string name, string address, bool isPermanent)
         {
-            Console.WriteLine("This is private constructor");
+            this.id = id;
+            this.age = age;
+            this.name = name;
+            this.address = address;
+            this.isPermanent = isPermanent;
         }
 
+        public void Display()
+        {
+            Console.WriteLine("Employee Id is:  " + this.id);
+            Console.WriteLine("Employee age is:  " + this.age);
+            Console.WriteLine("Employee Address is:  " + this.address);
+            Console.WriteLine("Employee Name is:  " + this.name);
+            Console.WriteLine("Is Employee Permanent:  " + this.isPermanent);
+        }
+    }
+
+    class Program
+    {
         static void Main(string[] args)
         {
-            Program p = new Program();
-            Console.WriteLine("Main method");
+            Employee e1 = new Employee(1, 21, "Demine", "Ha Noi", true);
+            e1.Display();
+
+            Console.WriteLine();
+
+            Employee e2 = new Employee(2, 21, "Cuong", "Nghe An", false);
+            e2.Display();
+
             Console.ReadKey();
         }
     }
-    #endregion
     #endregion
 }
