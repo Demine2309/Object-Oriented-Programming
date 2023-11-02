@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Garbage Collection on C# .N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encapsulation in C#", "Encapsulation in C#\Encapsulation in C#.csproj", "{DAB6E53F-B5E3-4D13-B02D-4ADD61A60E46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction in C#", "Abstraction in C#\Abstraction in C#.csproj", "{2429A482-2D3E-4089-9BAA-E3989C57653C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstraction in C#", "Abstraction in C#\Abstraction in C#.csproj", "{2429A482-2D3E-4089-9BAA-E3989C57653C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance in C#", "Inheritance in C#\Inheritance in C#.csproj", "{46655C93-E6E7-43E6-BB11-E790F3F3ED03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{2429A482-2D3E-4089-9BAA-E3989C57653C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2429A482-2D3E-4089-9BAA-E3989C57653C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2429A482-2D3E-4089-9BAA-E3989C57653C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46655C93-E6E7-43E6-BB11-E790F3F3ED03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46655C93-E6E7-43E6-BB11-E790F3F3ED03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46655C93-E6E7-43E6-BB11-E790F3F3ED03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46655C93-E6E7-43E6-BB11-E790F3F3ED03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

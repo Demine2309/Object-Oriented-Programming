@@ -1,0 +1,15 @@
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\bin\Debug\net7.0\Inheritance in C#.exe
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\bin\Debug\net7.0\Inheritance in C#.deps.json
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\bin\Debug\net7.0\Inheritance in C#.runtimeconfig.json
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\bin\Debug\net7.0\Inheritance in C#.dll
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\bin\Debug\net7.0\Inheritance in C#.pdb
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\obj\Debug\net7.0\Inheritance in C#.csproj.AssemblyReference.cache
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\obj\Debug\net7.0\Inheritance in C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\obj\Debug\net7.0\Inheritance in C#.AssemblyInfoInputs.cache
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\obj\Debug\net7.0\Inheritance in C#.AssemblyInfo.cs
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\obj\Debug\net7.0\Inheritance in C#.csproj.CoreCompileInputs.cache
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\obj\Debug\net7.0\Inheritance in C#.dll
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\obj\Debug\net7.0\refint\Inheritance in C#.dll
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\obj\Debug\net7.0\Inheritance in C#.pdb
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\obj\Debug\net7.0\Inheritance in C#.genruntimeconfig.cache
+D:\Code\C# new\Object-Oriented-Programming\Object Oriented Programming\Inheritance in C#\obj\Debug\net7.0\ref\Inheritance in C#.dll
