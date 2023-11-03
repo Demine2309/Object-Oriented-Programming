@@ -369,49 +369,92 @@
     #endregion
 
     #region Example to Understand Generalization in C#
-    interface ICar
+    //interface ICar
+    //{
+    //    void Start();
+    //    void Stop();
+    //}
+
+    //public class Innova : ICar
+    //{
+    //    public void Start()
+    //    {
+    //        Console.WriteLine($"Innova Start");
+    //    }
+
+    //    public void Stop()
+    //    {
+    //        Console.WriteLine($"Innova Stop");
+    //    }
+    //}
+
+    //public class BMW : ICar
+    //{
+    //    public void Start()
+    //    {
+    //        Console.WriteLine($"BMW Start");
+    //    }
+
+    //    public void Stop()
+    //    {
+    //        Console.WriteLine($"BMW Stop");
+    //    }
+    //}
+
+    //public class Program
+    //{
+    //    static void Main()
+    //    {
+    //        Innova innova = new Innova();
+    //        innova.Start();
+    //        innova.Stop();
+
+    //        ICar bmw = new BMW();
+    //        bmw.Start();
+    //        bmw.Stop();
+
+    //        Console.ReadKey();
+    //    }
+    //}
+    #endregion
+
+    #region Example to Understand Multiple Inheritance with Interfaces in C#:
+    public interface Interface1
     {
-        void Start();
-        void Stop();
+        void Test();
+        void Show();
     }
 
-    public class Innova : ICar
+    public interface Interface2
     {
-        public void Start()
+        void Test();
+        void Show();
+    }
+
+    public class MultipleInheritanceTest : Interface1, Interface2
+    {
+        public void Test()
         {
-            Console.WriteLine($"Innova Start");
+            Console.WriteLine("Test Method is Implemented in Child Class");
         }
 
-        public void Stop()
+        void Interface1.Show()
         {
-            Console.WriteLine($"Innova Stop");
+            Console.WriteLine("Interface1 Show Method is Implemented in Child Class");
+        }
+
+        void Interface2.Show()
+        {
+            Console.WriteLine("Interface2 Show Method is Implemented in Child Class");
         }
     }
 
-    public class BMW : ICar
+    class Program
     {
-        public void Start()
+        static void Main(string[] args)
         {
-            Console.WriteLine($"BMW Start");
-        }
-
-        public void Stop()
-        {
-            Console.WriteLine($"BMW Stop");
-        }
-    }
-
-    public class Program
-    {
-        static void Main()
-        {
-            Innova innova = new Innova();
-            innova.Start();
-            innova.Stop();
-
-            ICar bmw = new BMW();
-            bmw.Start();
-            bmw.Stop();
+            MultipleInheritanceTest obj = new MultipleInheritanceTest();
+            obj.Test();
 
             Console.ReadKey();
         }
